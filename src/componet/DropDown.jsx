@@ -95,7 +95,7 @@ const DropDown=()=>
          </select>
         </div>
         {countryOp&&cityOp&&stateOp&&
-        <h2>You selected <strong style={{fontSize:"2rem"}}>{countryOp},</strong> <span style={{color:"grey"}}>{stateOp} {cityOp}</span></h2>
+        <h2>You selected <strong style={{fontSize:"2rem"}}>{countryOp},</strong> <span style={{color:"grey"}}>{stateOp}, {cityOp}</span></h2>
         }
       </div>
    ) 
